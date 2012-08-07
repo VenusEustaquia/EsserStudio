@@ -173,10 +173,12 @@ function cabecera($texto)
 <script type=\"text/javascript\" src=\"js/swfobject.js\"></script>
 <script type='text/javascript' src='js/jquery.cleanSlider.js'></script>
     
-    <script type='text/javascript' src='js/jquery.jplayer.js'></script>    
-    <script type='text/javascript' src='js/ttw-music-player-min.js'></script>
-    <script type='text/javascript' src='js/ttw-music-player.js'></script>
-    <script type='text/javascript' src='js/myplaylist.js'></script>
+<script type='text/javascript' src='js/jquery.jplayer.js'></script>    
+<script type='text/javascript' src='js/ttw-music-player-min.js'></script>
+<script type='text/javascript' src='js/ttw-music-player.js'></script>
+<script type='text/javascript' src='js/myplaylist.js'></script>
+    
+<script charset='utf-8' src='http://widgets.twimg.com/j/2/widget.js'></script>
 
     
     

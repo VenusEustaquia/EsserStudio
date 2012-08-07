@@ -90,9 +90,9 @@ print "
  </div>
  
   <!--social-->
-  <div id='social'>
+  <div class='social'>
   
-    <div id='facebook'>
+    <div id='social'>
             <div id='fb-root'></div>
             <script>(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -103,6 +103,37 @@ print "
             }(document, 'script', 'facebook-jssdk'));
             </script>
             <div class='fb-like-box' data-href='http://www.facebook.com/esserstudio' data-width='300' data-show-faces='true' data-stream='true' data-header='false'></div>
+    </div>
+    <div id='social'>
+    </div>
+    <div id='social'>
+            <script>
+        new TWTR.Widget({
+        version: 2,
+        type: 'profile',
+        rpp: 10,
+        interval: 30000,
+        width: 300,
+        height: 470,
+        theme: {
+            shell: {
+            background: '#d4ccb1',
+            color: '#000000'
+            },
+            tweets: {
+            background: '#d4ccb1',
+            color: '#000000',
+            links: '#0ac200'
+            }
+        },
+        features: {
+            scrollbar: false,
+            loop: true,
+            live: true,
+            behavior: 'default'
+        }
+        }).render().setUser('EsserEstudi').start();
+        </script>
     </div>
   
   </div>
