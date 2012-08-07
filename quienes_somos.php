@@ -57,7 +57,7 @@ if (!$result) {
        ";      
        
       }
-      print "</div>\n";  
+      print "</div></div>\n";  
    }
 }
 
