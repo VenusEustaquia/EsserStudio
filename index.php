@@ -88,7 +88,63 @@ print "
     </ul>
     
  </div>
-</center>
+<!--social-->
+  <div class='social'>
+  
+    <div id='social'>
+            <div id='texto-social'>
+                <img src='images/face.jpg'></img>
+            </div>
+            <div id='fb-root'></div>
+            <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = '//connect.facebook.net/es_ES/all.js#xfbml=1 ';
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class='fb-like-box' data-href='http://www.facebook.com/esserstudio' data-width='300' data-show-faces='true' data-stream='true' data-header='false'></div>
+    </div>
+    <div id='social'>
+        <div id='texto-social'>
+                <img src='images/insta.jpg'></img>
+            </div>
+    </div>
+    <div id='social'>
+            <div id='texto-social'>
+                <img src='images/twit.jpg'></img>
+            </div>
+            <script>
+        new TWTR.Widget({
+        version: 2,
+        type: 'profile',
+        rpp: 10,
+        interval: 30000,
+        width: 300,
+        height: 470,
+        theme: {
+            shell: {
+            background: '#d4ccb1',
+            color: '#000000'
+            },
+            tweets: {
+            background: '#d4ccb1',
+            color: '#000000',
+            links: '#0ac200'
+            }
+        },
+        features: {
+            scrollbar: false,
+            loop: true,
+            live: true,
+            behavior: 'default'
+        }
+        }).render().setUser('EsserEstudi').start();
+        </script>
+    </div>
+  
+  </div>
 
 
 ";

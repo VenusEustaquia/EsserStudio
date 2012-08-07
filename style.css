@@ -5,7 +5,21 @@ body{
         min-height: 768px;
         margin: 0px;
 }    
-    
+#social{
+    background-color: #d4ccb1;
+    width: 300px;
+    float:left;
+    margin:10px;
+}   
+#texto-social img{    
+    width: 200px;
+    float: left;
+    margin:-20px 0 0 -20px;
+}
+.social{
+    width: 1024px;
+    height: 800px;
+}    
 #contenedor{
         width: 1024px;
         height:auto;
