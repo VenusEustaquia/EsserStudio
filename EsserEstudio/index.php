@@ -93,6 +93,7 @@ print "
   <div class='social'>
   
     <div id='social'>
+            <div id='texto-social'>FACEBOOK</div>
             <div id='fb-root'></div>
             <script>(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -105,8 +106,10 @@ print "
             <div class='fb-like-box' data-href='http://www.facebook.com/esserstudio' data-width='300' data-show-faces='true' data-stream='true' data-header='false'></div>
     </div>
     <div id='social'>
+        <div id='texto-social'>INSTAGRAM</div>
     </div>
     <div id='social'>
+            <div id='texto-social'>TWITTER</div>
             <script>
         new TWTR.Widget({
         version: 2,

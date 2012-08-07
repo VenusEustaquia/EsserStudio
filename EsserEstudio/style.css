@@ -8,7 +8,12 @@ body{
     width: 300px;
     float:left;
     margin:10px;
-}    
+}   
+#texto-social{
+    background-color: #0ac200;
+    width: 100px;
+    float: left;
+}
 .social{
     width: 1024px;
     height: 800px;
