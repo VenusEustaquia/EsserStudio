@@ -93,7 +93,9 @@ print "
   <div class='social'>
   
     <div id='social'>
-            <div id='texto-social'>FACEBOOK</div>
+            <div id='texto-social'>
+                <img src='images/face.jpg'></img>
+            </div>
             <div id='fb-root'></div>
             <script>(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
