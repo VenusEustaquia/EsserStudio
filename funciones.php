@@ -23,10 +23,10 @@ $dbMotor = MYSQL;                       // Base de datos empleada
 } */
 
 if ($dbMotor==MYSQL) {
-define('MYSQL_HOST', 'mysql:host=db424092704.db.1and1.com'); // Nombre de host MYSQL
-define('MYSQL_USUARIO', 'dbo424092704'); // Nombre de usuario de MySQL
-define('MYSQL_PASSWORD', 'projectESSER&1'); // Contraseï¿½a de usuario de MySQL
-$dbDb = 'db424092704'; // Nombre de la base de datos
+define('MYSQL_HOST', 'mysql:host=localhost'); // Nombre de host MYSQL
+define('MYSQL_USUARIO', 'root');     // Nombre de usuario de MySQL
+define('MYSQL_PASSWORD', 'root'); // Contraseï¿½a de usuario de MySQL
+$dbDb = 'esser'; // Nombre de la base de datos
 $dbEquipo = $dbDb.'.equipo'; // Nombre de la tabla de equipo
 $dbConsejos = $dbDb.'.consejos'; // Nombre de la tabla de
 $dbMision = $dbDb.'.mision_vision'; // Nombre de la tabla de
@@ -268,7 +268,7 @@ function cabecera($texto)
           if (isNaN(val)) errors+='- '+nm+' Te has olvidad del telefono.';
           if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
             min=test.substring(8,p); max=test.substring(p+1);
-            if (num<min || max<num) errors+='- '+nm+' Deber�a haber un numero entre '+min+' y '+max+'.';
+            if (num<min || max<num) errors+='- '+nm+' Deber�a haber un numero entre '+min+' y '+max+'.';
       } } } else if (test.charAt(0) == 'R') errors += '- '+nm+'.'; }
     } if (errors) alert('Han ocurrido los siguientes errores:'+errors);
     document.MM_returnValue = (errors == '');
@@ -285,7 +285,6 @@ function cabecera($texto)
 
 
 print"
-<center>
 <div id=\"contenedor\">
         <div id=\"menucabecera\">
 
@@ -330,7 +329,6 @@ function pie()
 
 
 </div>
-</center>
 </body>
 </html>';
 }

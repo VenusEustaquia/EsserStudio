@@ -2,6 +2,7 @@ body{
 	background-color: #E1DCCA;
 	width: 100%;
 	height: 100%;
+        min-height: 768px;
 }    
     
 #contenedor{
@@ -9,13 +10,12 @@ body{
         height:auto;
         /*border: solid 3px #eee;*/
         /*background-color: grey;*/
-        text-align: center;
-	margin-bottom:10px;
+        margin: 0 auto 10px auto;
 }
 #menucabecera{
 	width:1024px;
 	height:100px;
-        margin-bottom: 0px;
+        margin: 0 auto;
 }
 
 #imglogo{
@@ -75,18 +75,12 @@ ul{
 .boton:hover{
 	/*border:green 2px groove;*/
 }
-#tituloh1 {
-	position: absolute;
-	height: auto;
-	width: 800px;
-	margin-left: 250px;
-	margin-top:40px;
-	color:black;
-}
 /*Estilo de los botones inferiores del index*/
 #container2{
-	width:1035px;
+	width:1024px;
 	height:auto;
+        margin: 0 auto;
+        
 }
 
 #container2 ul{
@@ -159,6 +153,7 @@ ul{
         margin-top: 20px;
 	visibility:visible;
 	border-top: solid 3px #6C6C6C;
+        margin: 0 auto;
         
 }
 /*Estilo del banner:*/
@@ -166,7 +161,6 @@ ul{
 	width: 1024px;
 	height:400px;
 	margin: 0 auto;
-	margin-top:-50px;
 	padding-bottom: 10px;
 	text-align: center;
 	alignment-adjust: middle;
