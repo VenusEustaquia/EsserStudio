@@ -108,10 +108,14 @@ print "
             <div class='fb-like-box' data-href='http://www.facebook.com/esserstudio' data-width='300' data-show-faces='true' data-stream='true' data-header='false'></div>
     </div>
     <div id='social'>
-        <div id='texto-social'>INSTAGRAM</div>
+        <div id='texto-social'>
+                <img src='images/insta_1.jpg'></img>
+            </div>
     </div>
     <div id='social'>
-            <div id='texto-social'>TWITTER</div>
+            <div id='texto-social'>
+                <img src='images/twit.jpg'></img>
+            </div>
             <script>
         new TWTR.Widget({
         version: 2,
