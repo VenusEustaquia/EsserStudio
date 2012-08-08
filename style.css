@@ -95,24 +95,35 @@ ul{
 	width:1024px;
 	height:auto;
         margin: 0 auto;
-        
+        border: 1px solid #6C6C6C;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #D4CCB1;
+        color:#6C6C6C;
+}
+#container2 a{
+    color:#6C6C6C;
+}
+#container2  a:hover{
+    text-decoration: none;
 }
 
 #container2 ul{
-    margin-left: -45px;
+    display: block;
+    margin: 0;
+    padding:0;
 }
-
+#container2 ul li{
+    display: inline-block;
+    
+}
 .cajas{
 	width: 235px;
 	height: 180px;
         border-radius: 10px 10px 10px 10px;
-	background-image: url("images/fondoboton1.jpg");
-/*	position: relative;*/
 	float: left;
         margin: 5px;
-        margin-left: 20px;
         margin-bottom: 15px;
-        border: #6C6C6C solid 1px;
+      /*  border: #6C6C6C solid 1px;
 	color:#6C6C6C;
         /*padding: 40px 0px;
         margin-left: 0;
@@ -120,6 +131,7 @@ ul{
         */        
         background-size: 235px 180px;
 }
+/*
 #rock{
 	background-image: url("images/rock.jpg");
         background-repeat: no-repeat;
@@ -153,7 +165,7 @@ ul{
 #spot{	
 	background-image: url("images/bso.jpg");
         background-repeat: no-repeat;
-}
+}*/
 
 #pie{
 	clear: both;

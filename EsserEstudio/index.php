@@ -37,7 +37,6 @@ print "
  </div>
  
   <!--menu inferior-->
-  <center>
   <div id=\"container2\">
   
     <ul>

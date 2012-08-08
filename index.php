@@ -37,57 +37,57 @@ print "
  </div>
  
   <!--menu inferior-->
-  <center>
   <div id=\"container2\">
   
     <ul>
         <li>
           
-          <a href=\"listar.php?tipo=rock\"title='rock' id='rock' class='cajas'></a>
+          <a href=\"listar.php?tipo=rock\"title='rock' id='rock' class='cajas'>Rock</a>
           
         </li>
          <li>
           
-           <a href=\"listar.php?tipo=pop\" title='pop' id='pop' class='cajas'></a>
+           <a href=\"listar.php?tipo=pop\" title='pop' id='pop' class='cajas'>Pop</a>
            
         </li>                      
     
         <li>
            
-          <a href=\"listar.php?tipo=electro\" title='electronica' id='electro' class='cajas'></a>
+          <a href=\"listar.php?tipo=electro\" title='electronica' id='electro' class='cajas'>Electronico</a>
           
         </li> 
         <li>
           
-          <a href=\"listar.php?tipo=hiphop\" title='hip hop' id='hiphop' class='cajas'></a>
+          <a href=\"listar.php?tipo=hiphop\" title='hip hop' id='hiphop' class='cajas'>Música urbana</a>
           
         </li> 
     </ul>
     <ul>
         <li>
         
-          <a href=\"listar.php?tipo=world\" title='world music' id='world' class='cajas'></a>
+          <a href=\"listar.php?tipo=world\" title='world music' id='world' class='cajas'>World Music</a>
          
         </li>
     
         <li>
         
-          <a href=\"listar.php?tipo=solista\" title='solistas' id='solista' class='cajas'></a>
+          <a href=\"listar.php?tipo=solista\" title='solistas' id='solista' class='cajas'>Solistas</a>
           
         </li> 
         <li>
          
-          <a href=\"listar.php?tipo=latina\" title='m√∫sica latina' id='latina' class='cajas'></a>
+          <a href=\"listar.php?tipo=latina\" title='m√∫sica latina' id='latina' class='cajas'>Música Latina</a>
          
         </li> 
         <li>
           
-          <a href=\"listar.php?tipo=spot\" title='Bandas Sonoras, Audiolibros, Spot' id='spot' class='cajas'></a>
+          <a href=\"listar.php?tipo=spot\" title='Bandas Sonoras, Audiolibros, Spot' id='spot' class='cajas'>Bandas Sonoras, Audiolibros, Spot</a>
           
         </li>
     </ul>
     
  </div>
+
 <!--social-->
   <div class='social'>
   
@@ -148,6 +148,5 @@ print "
 
 
 ";
-
 pie();
 ?>
