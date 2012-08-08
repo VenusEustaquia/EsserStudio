@@ -1,9 +1,9 @@
 <?php
 
-
 include('funciones.php');
-$db = conectaDb();
 cabecera('Quienes somos');
+$db = conectaDb();
+
 print "
  
        <div id=\"quienes\"><h2>El estudio</h2>

@@ -93,8 +93,9 @@ print "
   
     <div class='social_column'>
         <div id='socialfacebook' class='social'>
-                <div id='texto-social1'>
-                    <img src='images/face.jpg' alt='facebook' />
+                <div id='texto-social1' class='texto-social>
+                   <!-- <img src='images/face.jpg' alt='facebook' />
+                   Facebook
                 </div>
                 <div id='fb-root'></div>
                 <script>(function(d, s, id) {
@@ -110,8 +111,9 @@ print "
      </div>
      <div class='social_column'>
         <div id='socialInsta' class='social'>
-            <div id='texto-social2'>
-                <img src='images/insta.jpg' alt='instagram' />
+            <div id='texto-social2' class='texto-social>
+                <!-- <img src='images/insta.jpg' alt='instagram' />
+                Instagram
             </div>
            Duis mattis gravida ultrices. Fusce id pulvinar purus. Donec venenatis odio nec mauris tempus lobortis. Nulla pellentesque, urna sit amet volutpat molestie, diam nulla dictum nibh, ac cursus dui diam vel quam. Morbi quis sollicitudin ipsum. Proin non nisi vitae dolor scelerisque accumsan. Fusce luctus viverra est vel cursus. Nulla at nulla ut ipsum ultrices tincidunt ut vel turpis. Duis volutpat odio in magna sollicitudin sodales viverra sapien ultricies. Etiam non nibh eget mi vestibulum egesta
         </div>
@@ -119,7 +121,8 @@ print "
      <div class='social_column'>
         <div id='socialTwitter' class='social'>
                 <div id='texto-social3' class='texto-social>
-                    <img src='images/twit.jpg' alt='twitter' />
+                    <!-- <img src='images/twit.jpg' alt='twitter' />
+                    Twitter
                 </div>
                 <script>
             new TWTR.Widget({
