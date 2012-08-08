@@ -4,22 +4,39 @@ body{
 	height: 100%;
         min-height: 768px;
         margin: 0px;
-}    
-#social{
+}   
+/* twitter, facebook...*/
+.social_column{
+    display:table-cell;
+    vertical-align: top;
+}
+.social{
     background-color: #d4ccb1;
     width: 300px;
-    float:left;
     margin:25px;
-}   
+    border-radius: 10px 10px 10px 10px;
+}
 #texto-social img{    
     width: 200px;
     float: left;
     margin:-20px 0 0 -20px;
 }
-.social{
+.socialholder{
     width: 1024px;
     height: 800px;
+    display: table;
 }    
+#socialtwitter{
+    
+}
+#twtr-widget-1{
+    clear: both;
+}
+
+#texto-social{
+    background-color: #8FC400;
+}
+/* El contenedor que todo lo abarca*/
 #contenedor{
         width: 1024px;
         height:auto;
@@ -27,52 +44,39 @@ body{
         /*background-color: grey;*/
         margin: 0 auto 10px auto;
 }
+/*Cabecera*/
 #menucabecera{
 	width:1024px;
 	height:100px;
         margin: 0 auto;
+        font-family: 'Michroma', sans-serif;
+        font-size: 8px;
 }
-
 #imglogo{
 	width: 150px;
         height: 100px;
 	position:relative;
 	float:left;
         margin-left: -40px;
-	/*margin-top: -15px;
-	margin-left: -30px;*/
 }
 .boton{
 	position: relative;
 	float:right;
-	width: 170px;
+	width: 250px;
 	height: 30px;
         font-size: 17px;
-       /* border: #6C6C6C solid 1px;*/
-      /*  background-image: url("images/fondoboton1.jpg"); */
 	color:#6C6C6C;
 	text-align:right;
         margin-top: 35px;
         padding-top: 15px;
-        font-size:20px
 	
 }
-.boton:hover{
-    	/*background-image: url("images/fondoboton2.jpg"); */
+.boton:hover{ 
+    	/*cuando se está encima las letras son verdes*/
         color:#8FC400;
-}      
+}  
 a{
 	color:#FFF;
-}
-#boton1{
-	border-radius: 0px 10px 10px 0px;
-        width: 190px;
-}
-#boton2{
-/*	margin-left:100px;*/
-}
-#boton3{
-        border-radius: 10px 0px 0px 10px;
 }
 ul{
         list-style-type: none;   
@@ -90,15 +94,17 @@ ul{
 .boton:hover{
 	/*border:green 2px groove;*/
 }
+/*Fin de la cabecera*/
 /*Estilo de los botones inferiores del index*/
 #container2{
 	width:1024px;
 	height:auto;
         margin: 0 auto;
-        border: 1px solid #6C6C6C;
         border-radius: 10px 10px 10px 10px;
         background-color: #D4CCB1;
         color:#6C6C6C;
+        font-family: 'Rock Salt', cursive;
+        text-align: center;
 }
 #container2 a{
     color:#6C6C6C;
@@ -118,9 +124,8 @@ ul{
 }
 .cajas{
 	width: 235px;
-	height: 180px;
+	height: 90px;
         border-radius: 10px 10px 10px 10px;
-	float: left;
         margin: 5px;
         margin-bottom: 15px;
       /*  border: #6C6C6C solid 1px;
@@ -130,6 +135,8 @@ ul{
         margin-right: 30px;
         */        
         background-size: 235px 180px;
+        display: table-cell;
+        vertical-align: middle;
 }
 /*
 #rock{
@@ -209,17 +216,7 @@ pre {
 .clear {clear:both;}
 
 /*Estilo del twitter*/
-h2.tut{
-	/* This is the "MY TWEETS" title */
-	color:white;
-	font-family:"Myriad Pro", Arial, Helvetica, sans-serif;
-	font-size:16px;
-	padding:12px 0 0 58px;
-	text-transform:uppercase;
-
-	/* The CSS3 text-shadow property */
-	text-shadow:2px 1px 6px #333;
-}
+/*
 div#enlaces{
     position:fixed;
     right:0px;
@@ -232,7 +229,7 @@ div#enlaces img{
 }
 div#enlaces li{
     display:block;
-}
+}*/
 
 /*Quienes somos*/
 .divquienes{

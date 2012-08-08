@@ -180,8 +180,8 @@ function cabecera($texto)
 <script charset='utf-8' src='http://widgets.twimg.com/j/2/widget.js'></script>
 
    
-    
-    
+<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
       
            
 <script type='text/javascript'>
@@ -296,19 +296,7 @@ print"
                 <li><a href=\"contacto.php\" id=\"boton3\" class=\"boton\">Contacto</a></li>    
         </ul>
         <!-- <h1 id=\"tituloh1\">MÚSICOS QUE TRABAJAN PARA MÚSICOS</h1> -->
-        </div>
-
-<!-- twitter -->
-       <div id=\"enlaces\" >
-       <ul>
-            <li><a href=\"index.php\"><img src=\"images/twitter-logo.png\"></img></a></li>
-            <li><a href=\"index.php\"><img src=\"images/facebook-logo.png\"></img></a></li>
-            <li><a href=\"index.php\"><img src=\"images/youtube-logo.png\"></img></a></li>            
-            </ul>
-                        
-        
-       </div>
-       
+        </div>       
        \n
     ";
    

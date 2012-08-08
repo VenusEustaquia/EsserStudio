@@ -89,61 +89,67 @@ print "
  </div>
 
 <!--social-->
-  <div class='social'>
+  <div class='socialholder'>
   
-    <div id='social'>
+    <div class='social_column'>
+        <div id='socialfacebook' class='social'>
+                <div id='texto-social'>
+                    <img src='images/face.jpg'></img>
+                </div>
+                <div id='fb-root'></div>
+                <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = '//connect.facebook.net/es_ES/all.js#xfbml=1 ';
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class='fb-like-box' data-href='http://www.facebook.com/esserstudio' data-width='300' data-show-faces='true' data-stream='true' data-header='false'></div>
+        </div>
+     </div>
+     <div class='social_column'>
+        <div id='socialInsta' class='social'>
             <div id='texto-social'>
-                <img src='images/face.jpg'></img>
+                <img src='images/insta.jpg' alt='instagram'/>
             </div>
-            <div id='fb-root'></div>
-            <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = '//connect.facebook.net/es_ES/all.js#xfbml=1 ';
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-            </script>
-            <div class='fb-like-box' data-href='http://www.facebook.com/esserstudio' data-width='300' data-show-faces='true' data-stream='true' data-header='false'></div>
-    </div>
-    <div id='social'>
-        <div id='texto-social'>
-                <img src='images/insta.jpg'></img>
-            </div>
-    </div>
-    <div id='social'>
-            <div id='texto-social'>
-                <img src='images/twit.jpg'></img>
-            </div>
-            <script>
-        new TWTR.Widget({
-        version: 2,
-        type: 'profile',
-        rpp: 10,
-        interval: 30000,
-        width: 300,
-        height: 470,
-        theme: {
-            shell: {
-            background: '#d4ccb1',
-            color: '#000000'
+           Duis mattis gravida ultrices. Fusce id pulvinar purus. Donec venenatis odio nec mauris tempus lobortis. Nulla pellentesque, urna sit amet volutpat molestie, diam nulla dictum nibh, ac cursus dui diam vel quam. Morbi quis sollicitudin ipsum. Proin non nisi vitae dolor scelerisque accumsan. Fusce luctus viverra est vel cursus. Nulla at nulla ut ipsum ultrices tincidunt ut vel turpis. Duis volutpat odio in magna sollicitudin sodales viverra sapien ultricies. Etiam non nibh eget mi vestibulum egesta
+        </div>
+     </div>
+     <div class='social_column'>
+        <div id='socialTwitter' class='social'>
+                <div id='texto-social'>
+                    <img src='images/twit.jpg'></img>
+                </div>
+                <script>
+            new TWTR.Widget({
+            version: 2,
+            type: 'profile',
+            rpp: 10,
+            interval: 30000,
+            width: 300,
+            height: 470,
+            theme: {
+                shell: {
+                background: '#d4ccb1',
+                color: '#000000'
+                },
+                tweets: {
+                background: '#d4ccb1',
+                color: '#000000',
+                links: '#0ac200'
+                }
             },
-            tweets: {
-            background: '#d4ccb1',
-            color: '#000000',
-            links: '#0ac200'
+            features: {
+                scrollbar: false,
+                loop: true,
+                live: true,
+                behavior: 'default'
             }
-        },
-        features: {
-            scrollbar: false,
-            loop: true,
-            live: true,
-            behavior: 'default'
-        }
-        }).render().setUser('EsserEstudi').start();
-        </script>
-    </div>
-  
+            }).render().setUser('EsserEstudi').start();
+            </script>
+        </div>
+     </div>
   </div>
 
 
