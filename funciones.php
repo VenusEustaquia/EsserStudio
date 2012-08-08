@@ -155,10 +155,9 @@ function fechaAmd($dma)
 
 function cabecera($texto)
 {
-   print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"
-      \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
-<html lang='es' xmlns=\"http://www.w3.org/1999/xhtml\">
+   print "
+<!DOCTYPE html>
+<html lang='es'>
 <head>
  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
  <title>Esser Estudio - $texto</title>
@@ -180,8 +179,8 @@ function cabecera($texto)
 <script charset='utf-8' src='http://widgets.twimg.com/j/2/widget.js'></script>
 
    
-<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css' />
       
            
 <script type='text/javascript'>

@@ -7,31 +7,31 @@ print "
   <div class=\"slider\">
     <ul >
         <li>
-          <image src=\"images/img1.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 1\" />
+          <img src=\"images/img1.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 1\" />
         </li>
         
         <li>
-            <image src=\"images/img2.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 2\" />
+            <img src=\"images/img2.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 2\" />
         </li>
         
         <li>
-            <image src=\"images/img3.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 3\" />
+            <img src=\"images/img3.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 3\" />
         </li>
         
         <li>
-            <image src=\"images/img4.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 4\" />
+            <img src=\"images/img4.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 4\" />
         </li>  
         
         <li>
-            <image src=\"images/img1.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 1\" />
+            <img src=\"images/img1.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 1\" />
         </li>
         
         <li>
-            <image src=\"images/img2.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 2\" />
+            <img src=\"images/img2.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 2\" />
         </li>
         
         <li>
-            <image src=\"images/img3.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 3\" />
+            <img src=\"images/img3.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 3\" />
         </li> 
     </ul>
  </div>
@@ -42,7 +42,7 @@ print "
     <ul>
         <li>
           
-          <a href=\"listar.php?tipo=rock\"title='rock' id='rock' class='cajas'>Rock</a>
+          <a href=\"listar.php?tipo=rock\" title='rock' id='rock' class='cajas'>Rock</a>
           
         </li>
          <li>
@@ -93,8 +93,8 @@ print "
   
     <div class='social_column'>
         <div id='socialfacebook' class='social'>
-                <div id='texto-social'>
-                    <img src='images/face.jpg'></img>
+                <div id='texto-social1'>
+                    <img src='images/face.jpg' alt='facebook' />
                 </div>
                 <div id='fb-root'></div>
                 <script>(function(d, s, id) {
@@ -110,16 +110,16 @@ print "
      </div>
      <div class='social_column'>
         <div id='socialInsta' class='social'>
-            <div id='texto-social'>
-                <img src='images/insta.jpg' alt='instagram'/>
+            <div id='texto-social2'>
+                <img src='images/insta.jpg' alt='instagram' />
             </div>
            Duis mattis gravida ultrices. Fusce id pulvinar purus. Donec venenatis odio nec mauris tempus lobortis. Nulla pellentesque, urna sit amet volutpat molestie, diam nulla dictum nibh, ac cursus dui diam vel quam. Morbi quis sollicitudin ipsum. Proin non nisi vitae dolor scelerisque accumsan. Fusce luctus viverra est vel cursus. Nulla at nulla ut ipsum ultrices tincidunt ut vel turpis. Duis volutpat odio in magna sollicitudin sodales viverra sapien ultricies. Etiam non nibh eget mi vestibulum egesta
         </div>
      </div>
      <div class='social_column'>
         <div id='socialTwitter' class='social'>
-                <div id='texto-social'>
-                    <img src='images/twit.jpg'></img>
+                <div id='texto-social3' class='texto-social>
+                    <img src='images/twit.jpg' alt='twitter' />
                 </div>
                 <script>
             new TWTR.Widget({
