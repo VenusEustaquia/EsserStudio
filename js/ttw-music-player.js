@@ -387,8 +387,9 @@
                         '            <span class="highlight"></span>' +
                         '        </div>' +
                         '        <div class="track-info">' +
+                                    
+                        '            <p class="artist-outer"><span class="artist"></span></p>' +
                         '            <p class="title"></p>' +
-                        '            <p class="artist-outer">By <span class="artist"></span></p>' +
                         '            <div class="rating">' +
                         '                <span class="rating-level rating-star on"></span>' +
                         '                <span class="rating-level rating-star on"></span>' +

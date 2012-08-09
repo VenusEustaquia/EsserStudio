@@ -191,48 +191,56 @@ function cabecera($texto)
              
             $('div#lista-rock').ttwMusicPlayer(rock, {
                 autoPlay:false, 
+                description:desc_rock,
                 jPlayer:{
                     swfPath:'js' //You need to override the default swf path any time the directory structure changes
                 }
             });
             $('div#lista-electro').ttwMusicPlayer(electro, {
                 autoPlay:false, 
+                description:desc_electro,
                 jPlayer:{
                     swfPath:'js' //You need to override the default swf path any time the directory structure changes
                 }
             });
             $('div#lista-pop').ttwMusicPlayer(pop, {
-                autoPlay:false, 
+                autoPlay:false,
+                description:desc_pop,
                 jPlayer:{
                     swfPath:'js' //You need to override the default swf path any time the directory structure changes
                 }
             });
             $('div#lista-hiphop').ttwMusicPlayer(hiphop, {
-                autoPlay:false, 
+                autoPlay:false,
+                description:desc_hiphop,
                 jPlayer:{
                     swfPath:'js' //You need to override the default swf path any time the directory structure changes
                 }
             });
             $('#lista-world').ttwMusicPlayer(world, {
-                autoPlay:false, 
+                autoPlay:false,
+                description:desc_world,
                 jPlayer:{
                     swfPath:'js' //You need to override the default swf path any time the directory structure changes
                 }
             });
             $('#lista-solista').ttwMusicPlayer(solista, {
                 autoPlay:false, 
+                description:desc_solista,
                 jPlayer:{
                     swfPath:'js' //You need to override the default swf path any time the directory structure changes
                 }
             });
             $('#lista-latina').ttwMusicPlayer(latina, {
                 autoPlay:false, 
+                description:desc_latina,
                 jPlayer:{
                     swfPath:'js' //You need to override the default swf path any time the directory structure changes
                 }
             });
             $('#lista-spot').ttwMusicPlayer(spot, {
                 autoPlay:false, 
+                description:desc_spot,
                 jPlayer:{
                     swfPath:'js' //You need to override the default swf path any time the directory structure changes
                 }
