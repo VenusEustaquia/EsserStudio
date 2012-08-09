@@ -1,8 +1,34 @@
 <?php
 
 
+
 include('funciones.php');
 cabecera('Contacto');
+
+    // Get a key from https://www.google.com/recaptcha/admin/create
+    require_once('recaptcha/recaptchalib.php');
+    $publickey = "6LfHG9USAAAAAAfiAP9U2t-RXluk4rwVg_ZiDBGF";
+    $privatekey = "6LfHG9USAAAAAKD5BsLc9Tuadds0BViIgKvf2Kc9";
+    # the response from reCAPTCHA
+    $resp = null;
+    # the error code from reCAPTCHA, if any
+    $error = null;
+    # was there a reCAPTCHA response?
+    if ($_POST["recaptcha_response_field"]) {
+        $resp = recaptcha_check_answer ($privatekey,
+                                        $_SERVER["REMOTE_ADDR"],
+                                        $_POST["recaptcha_challenge_field"],
+                                        $_POST["recaptcha_response_field"]);
+
+        if ($resp->is_valid) {
+                echo "You got it!";
+        } else {
+                # set the error code so that we can display it
+                $error = $resp->error;
+        }
+    }
+    
+
 
 print "
   <div id=\"contacto\">
@@ -12,8 +38,11 @@ print "
           <p>Nombre: <input name=\"nombre\" type=\"text\" class=\"textbox\" id=\"nombre\" /></p>
           <p>Correo electrónico: <input name=\"mail\" type=\"text\" class=\"textbox\" id=\"mail\" /></p>
           <p>Teléfono: <input name=\"tlf\" type=\"text\" class=\"textbox\" id=\"tlf\" /></p>
-          <p>Mensaje: <textarea name=\"mensaje\" cols=\"20\" rows=\"6\" class=\"textbox\" id=\"mensaje\"></textarea></p>
-          <p><input id=\"enviar\" type=\"submit\" value=\"Enviar\"  onclick=\"MM_validateForm('nombre','','R','mail','','RisEmail','tlf','','R','mensaje','','R');return document.MM_returnValue\" /></p>
+          <p>Mensaje: <textarea name=\"mensaje\" cols=\"20\" rows=\"6\" class=\"textbox\" id=\"mensaje\"></textarea></p>";
+          
+          echo recaptcha_get_html($publickey, $error); /* esta línea introduce el recatpcha*/
+print "
+         <p><input id=\"enviar\" type=\"submit\" value=\"Enviar\"  onclick=\"MM_validateForm('nombre','','R','mail','','RisEmail','tlf','','R','mensaje','','R');return document.MM_returnValue\" /></p>
          </form>
       </div>
 	  <div id=\"direccion\" class=\"direccion\">

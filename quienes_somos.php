@@ -1,5 +1,4 @@
 <?php
-
 include('funciones.php');
 cabecera('Quienes somos');
 $db = conectaDb();

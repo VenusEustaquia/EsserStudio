@@ -339,16 +339,19 @@ contacto{
 
 }
 #enviar{
-	margin-left: 250px;
-        margin-top: 20px;
+	margin-left: 268px;
         padding: 5px 20px;
 }
 .textbox{
 	text-align:right;
 	float:right;
 	position:relative;
-	margin-right: 200px;
+	margin-right: 180px;
 }
+#recaptcha_widget_div {
+        margin-top: 100px;
+}
+
 /*CONSEJOS PREVIOS*/
 #consejos{
         text-align: justify;
@@ -366,6 +369,7 @@ contacto{
         width: 800px;
         clear: both;
 }
+
 
 /*BANNER*/
 .clean_slider_container{
