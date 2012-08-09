@@ -4,6 +4,9 @@ html, body{
 	height: 100%;
         margin: 0px;
         position: relative;
+        /*font-family: 'Nunito', sans-serif;
+        font-family: 'Courgette', cursive;*/
+        font-family: 'Share', cursive;
 }   
 /* twitter, facebook...*/
 .social_column{
@@ -30,6 +33,7 @@ html, body{
 }
 
 #texto-social1{
+        border-radius: 10px 10px 10px 10px;
         background-color: #8FC400;
         margin:-20px 0 0 -20px;
         padding: 20px;
@@ -234,6 +238,12 @@ div#enlaces li{
     float:left;
     position: relative;
     margin-top: 20px;
+}
+#divcurriculo:first-letter {
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: #993333;
+        font-weight: bold;
 }
 .divcurriculo{
     width: 300px;

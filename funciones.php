@@ -12,16 +12,15 @@ define('MYSQL',          'MySQL');
 
 $dbMotor = MYSQL;                       // Base de datos empleada
 /*if ($dbMotor==MYSQL) {
-   define('MYSQL_HOST', 'mysql:host=localhost'); // Nombre de host MYSQL
-   define('MYSQL_USUARIO', 'root');     // Nombre de usuario de MySQL
-   define('MYSQL_PASSWORD', 'root');        // Contraseï¿½a de usuario de MySQL
-   $dbDb      = 'esser';      // Nombre de la base de datos
-   $dbEquipo = $dbDb.'.equipo';       // Nombre de la tabla de equipo
-   $dbConsejos = $dbDb.'.consejos';       // Nombre de la tabla de 
-   $dbMision = $dbDb.'.mision_vision';       // Nombre de la tabla de 
-   $dbMusica = $dbDb.'.musica';       // Nombre de la tabla de 
+    define('MYSQL_HOST', 'mysql:host=db424092704.db.1and1.com'); // Nombre de host MYSQL
+    define('MYSQL_USUARIO', 'dbo424092704'); // Nombre de usuario de MySQL
+    define('MYSQL_PASSWORD', 'projectESSER&1'); // Contraseï¿½a de usuario de MySQL
+    $dbDb = 'db424092704'; // Nombre de la base de datos
+    $dbEquipo = $dbDb.'.equipo'; // Nombre de la tabla de equipo
+    $dbConsejos = $dbDb.'.consejos'; // Nombre de la tabla de
+    $dbMision = $dbDb.'.mision_vision'; // Nombre de la tabla de
+    $dbMusica = $dbDb.'.musica'; // Nombre de la tabla de
 } */
-
 if ($dbMotor==MYSQL) {
 define('MYSQL_HOST', 'mysql:host=localhost'); // Nombre de host MYSQL
 define('MYSQL_USUARIO', 'root');     // Nombre de usuario de MySQL
@@ -32,7 +31,6 @@ $dbConsejos = $dbDb.'.consejos'; // Nombre de la tabla de
 $dbMision = $dbDb.'.mision_vision'; // Nombre de la tabla de
 $dbMusica = $dbDb.'.musica'; // Nombre de la tabla de
 } 
-
 //definir campos de todas las tablas
 define('TAM_NOM',           50); // Tamaï¿½o de los campos nombre (de cualquier tabla)
 define('TAM_CURRICULUM',   500); // Tamaï¿½o del campo curriculum (tabla equipo)
@@ -179,9 +177,11 @@ function cabecera($texto)
 <script charset='utf-8' src='http://widgets.twimg.com/j/2/widget.js'></script>
 
    
-<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css' />
-      
+<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css' /> <!--fuente estilos musicales-->
+<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css' /> <!--fuente menú cabecera-->
+<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css' /> <!--fuente body-->
+<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Share:400italic' rel='stylesheet' type='text/css' />
            
 <script type='text/javascript'>
         $(document).ready(
