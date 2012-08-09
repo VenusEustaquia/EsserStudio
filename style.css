@@ -238,9 +238,10 @@ div#enlaces li{
 /*Quienes somos*/
 .divquienes{
     width: 1024px;
-    float:left;
-    position: relative;
-    margin-top: 20px;
+   /* float:left;
+    position: relative;*/
+    display: table;
+    margin: 50px;
 }
 #divcurriculo:first-letter {
         text-transform: capitalize;
@@ -254,6 +255,10 @@ div#enlaces li{
     position: relative;
     margin-top: 20px;
     visibility: hidden;
+    
+}
+.divfoto{
+    margin: 20px auto;
 }
 .divcurriculo:hover{
     visibility: visible;
@@ -263,12 +268,18 @@ h2{
 }
 #quienes{
     text-align: justify;
+    margin-bottom: 50px;
 }
 .cambiable{
     height: 300px;
     width: 300px;
     position: relative;
     float: left;
+    margin: 30px 20px 0px 20px;
+}
+#foto_equipo{
+    width: 300px;
+    height: 300px;
 }
 .cambiable .initial, .cambiable .final{
     position: absolute;

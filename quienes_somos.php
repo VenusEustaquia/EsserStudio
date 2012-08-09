@@ -21,7 +21,6 @@ $consulta = "SELECT mision FROM $dbMision";
        foreach ($result as $valor) {
 print "
 <div id\"mision-vision\">".utf8_encode($valor[mision])."</div>
-      
 ";
        }
    }
@@ -44,16 +43,16 @@ if (!$result) {
        $result = $db->query($consulta);
        foreach ($result as $valor) {
        print "
-     <div id=\"divquienes\" class=\"cambiable\">
+    <div id=\"divquienes\" class=\"cambiable\">
        <div id='divfoto' class='initial'>
-           <img src=\"$valor[foto]\" alt=\"foto_equipo\"></img>
+           <img id='foto_equipo' src=\"$valor[foto]\" alt=\"foto_equipo\"></img>
        </div>
        <div id='divcurriculo' class='final'>
            <h2 id='h2nom'>".utf8_encode($valor[nom])."</h2>  
            <h3 id=h3tp>".utf8_encode($valor[tipo])."</h3>
            <p id='pcv'>".utf8_encode($valor[curriculm])."</p>
        </div>
-     </div>
+    </div>
        ";      
        
       }
