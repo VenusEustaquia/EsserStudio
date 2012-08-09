@@ -29,7 +29,7 @@ var desc_rock = 'Consigue el mejor sonido para tu banda de rock. En esser estudi
 var electro = [{
                  mp3:'mp3/test1.mp3',        
                 title:'Test1',
-                artist:'Electro',
+                artist:'Electronica',
                 rating:4,        
                 cover:'images/album-cover.jpg'  
             }
@@ -50,7 +50,7 @@ var world = [
     {
         mp3:'mp3/test1.mp3',        
         title:'Test1',
-        artist:'world',
+        artist:'Music World',
         rating:4,        
         cover:'images/album-cover.jpg'  
     }
@@ -60,7 +60,7 @@ var solista = [
     {
         mp3:'mp3/test1.mp3',        
         title:'Test1',
-        artist:'solista',
+        artist:'Solista',
         rating:4,        
         cover:'images/album-cover.jpg'  
     }
@@ -70,7 +70,7 @@ var hiphop = [
     {
         mp3:'mp3/test1.mp3',        
         title:'Test1',
-        artist:'HipHop',
+        artist:'Música Urbana',
         rating:4,        
         cover:'images/album-cover.jpg'  
     }
@@ -80,7 +80,7 @@ var spot = [
     {
         mp3:'mp3/test1.mp3',        
         title:'Test1',
-        artist:'spot',
+        artist:'BSO, spots...',
         rating:4,        
         cover:'images/album-cover.jpg'  
     }
@@ -90,7 +90,7 @@ var latina = [
     {
         mp3:'mp3/test1.mp3',        
         title:'Test1',
-        artist:'latina',
+        artist:'Música Latina',
         rating:4,        
         cover:'images/album-cover.jpg'  
     }
