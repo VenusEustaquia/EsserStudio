@@ -26,10 +26,7 @@ html, body{
         display: table;
         margin: 10px 0;
 }    
-#socialtwitter{
-    
 
-}
 #twtr-widget-1{
         clear: both;
 }
@@ -243,11 +240,8 @@ div#enlaces li{
     display: table;
     margin: 50px;
 }
-#divcurriculo:first-letter {
+#h3tp:first-letter {
         text-transform: capitalize;
-        text-decoration: underline;
-        color: #993333;
-        font-weight: bold;
 }
 .divcurriculo{
     width: 300px;
