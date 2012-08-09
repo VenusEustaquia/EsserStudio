@@ -113,8 +113,9 @@ print "
             <div id='texto-social2' class='texto-social'>
                 Instagram
             </div>
-           Duis mattis gravida ultrices. Fusce id pulvinar purus. Donec venenatis odio nec mauris tempus lobortis. Nulla pellentesque, urna sit amet volutpat molestie, diam nulla dictum nibh, ac cursus dui diam vel quam. Morbi quis sollicitudin ipsum. Proin non nisi vitae dolor scelerisque accumsan. Fusce luctus viverra est vel cursus. Nulla at nulla ut ipsum ultrices tincidunt ut vel turpis. Duis volutpat odio in magna sollicitudin sodales viverra sapien ultricies. Etiam non nibh eget mi vestibulum egesta
-        </div>
+<iframe src='http://widget.stagram.com/in/username/?s=140&w=2&h=3&b=0&bg=D4CCB1&p=5' allowtransparency='true' frameborder='0' scrolling='no' style='border:none;overflow:hidden;width:290px; height: 435px' ></iframe> <!-- Webstagram - web.stagram.com -->
+          
+            </div>
      </div>
      <div class='social_column'>
         <div id='socialTwitter' class='social'>
