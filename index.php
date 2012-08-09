@@ -23,15 +23,18 @@ print "
         </li>  
         
         <li>
-            <img src=\"images/img1.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 1\" />
+            <img src=\"images/img5.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 1\" />
         </li>
         
         <li>
-            <img src=\"images/img2.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 2\" />
+            <img src=\"images/img6.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 2\" />
         </li>
         
         <li>
-            <img src=\"images/img3.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 3\" />
+            <img src=\"images/img7.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 3\" />
+        </li>
+        <li>
+            <img src=\"images/img8.jpg\" width=\"800\" height=\"400\" alt=\"Imagen Esser 3\" />
         </li> 
     </ul>
  </div>
