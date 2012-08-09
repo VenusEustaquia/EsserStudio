@@ -6,7 +6,7 @@ cabecera('Contacto');
 
 print "
   <div id=\"contacto\">
-        
+        <h2 id='h2contacto'>Contacta con nosotros</h2>
         <div id=\"formulario\">
          <form id=\"form1\" method=\"post\" action=\"\">
           <p>Nombre: <input name=\"nombre\" type=\"text\" class=\"textbox\" id=\"nombre\" /></p>
