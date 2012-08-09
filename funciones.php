@@ -11,7 +11,7 @@ define('MYSQL',          'MySQL');
 
 
 $dbMotor = MYSQL;                       // Base de datos empleada
-/*if ($dbMotor==MYSQL) {
+if ($dbMotor==MYSQL) {
     define('MYSQL_HOST', 'mysql:host=db424092704.db.1and1.com'); // Nombre de host MYSQL
     define('MYSQL_USUARIO', 'dbo424092704'); // Nombre de usuario de MySQL
     define('MYSQL_PASSWORD', 'projectESSER&1'); // Contraseï¿½a de usuario de MySQL
@@ -20,7 +20,7 @@ $dbMotor = MYSQL;                       // Base de datos empleada
     $dbConsejos = $dbDb.'.consejos'; // Nombre de la tabla de
     $dbMision = $dbDb.'.mision_vision'; // Nombre de la tabla de
     $dbMusica = $dbDb.'.musica'; // Nombre de la tabla de
-} */
+}  /*
 if ($dbMotor==MYSQL) {
 define('MYSQL_HOST', 'mysql:host=localhost'); // Nombre de host MYSQL
 define('MYSQL_USUARIO', 'root');     // Nombre de usuario de MySQL
@@ -30,7 +30,7 @@ $dbEquipo = $dbDb.'.equipo'; // Nombre de la tabla de equipo
 $dbConsejos = $dbDb.'.consejos'; // Nombre de la tabla de
 $dbMision = $dbDb.'.mision_vision'; // Nombre de la tabla de
 $dbMusica = $dbDb.'.musica'; // Nombre de la tabla de
-} 
+} */
 //definir campos de todas las tablas
 define('TAM_NOM',           50); // Tamaï¿½o de los campos nombre (de cualquier tabla)
 define('TAM_CURRICULUM',   500); // Tamaï¿½o del campo curriculum (tabla equipo)
@@ -182,11 +182,18 @@ function cabecera($texto)
 <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css' /> <!--fuente body-->
 <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Share:400italic' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'> <!--fuente reproductor-->
            
 <script type='text/javascript'>
         $(document).ready(
         
         function(){
+    
+            var config={};
+            config.width =1024;  //slider width size in pixels 
+            config.height=400;  //slider height size in pixels 
+            config.intervalTime  =7000; //mili-seconds between slides   
+            $('.slider').cleanSlider(config);
             
              
             $('div#lista-rock').ttwMusicPlayer(rock, {
@@ -246,20 +253,7 @@ function cabecera($texto)
                 }
             });
              
-            var config={};
-            config.width =1024;  //slider width size in pixels 
-            config.height=400;  //slider height size in pixels 
-            config.intervalTime  =7000; //mili-seconds between slides   
-            $('.slider').cleanSlider(config);
 
-    
-            $('#example1').zAccordion({
-                timeout: 6000,
-                slideWidth: 800,
-                width: 1024,
-                height: 350
-                });
-            
         });
     
            

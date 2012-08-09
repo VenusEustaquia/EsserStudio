@@ -4,7 +4,7 @@ include('funciones.php');
 $tipo= recoge('tipo');
 cabecera('Listar canciones');
 
-       print "<p>$tipo:</p>\n<div id='lista-$tipo'></div>\n";
+       print "<div id='lista-$tipo'></div>\n";
 
 
 $db = NULL;
