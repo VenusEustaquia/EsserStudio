@@ -34,9 +34,9 @@ print "
   <div id=\"contacto\">
         <h2 id='h2contacto'>Contacta con nosotros</h2>
         <div id=\"formulario\">
-         <form id=\"form1\" method=\"post\" action=\"\">
+         <form id=\"form1\" method=\"post\" action='enviar.php'>
           <p>Nombre: <input name=\"nombre\" type=\"text\" class=\"textbox\" id=\"nombre\" /></p>
-          <p>Correo electrónico: <input name=\"mail\" type=\"text\" class=\"textbox\" id=\"mail\" /></p>
+          <p>Correo electrónico: <input name='correo' type=\"text\" class=\"textbox\" id=\"mail\" /></p>
           <p>Teléfono: <input name=\"tlf\" type=\"text\" class=\"textbox\" id=\"tlf\" /></p>
           <p>Mensaje: <textarea name=\"mensaje\" cols=\"20\" rows=\"6\" class=\"textbox\" id=\"mensaje\"></textarea></p>";
           
